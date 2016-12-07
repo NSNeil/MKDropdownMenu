@@ -127,6 +127,7 @@ static UIImage *disclosureIndicatorImage = nil;
                                                         attribute:NSLayoutAttributeCenterY
                                                        multiplier:1.0
                                                          constant:0.0]]];
+    _disclosureIndicatorView.contentMode = UIViewContentModeScaleAspectFit;
 }
 
 - (UIView *)currentCustomView {
